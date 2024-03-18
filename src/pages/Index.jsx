@@ -1,6 +1,6 @@
 import React from "react";
 import { Box, Heading, Text, Stack, Container, Link, Button, Image } from "@chakra-ui/react";
-import { FaDownload } from "react-icons/fa";
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 const Index = () => {
   const researchItems = [
@@ -41,7 +41,7 @@ const Index = () => {
             </Heading>
             <Text mb={4}>{item.description}</Text>
             <Link href={item.downloadLink} isExternal>
-              <Button rightIcon={<FaDownload />} colorScheme="blue">
+              <Button rightIcon={<FaExternalLinkAlt />} colorScheme="blue">
                 Details
               </Button>
             </Link>
