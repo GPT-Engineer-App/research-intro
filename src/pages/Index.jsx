@@ -10,9 +10,9 @@ const Index = () => {
       downloadLink: "https://www.science.org/doi/full/10.1126/science.abg1915",
     },
     {
-      title: "Advancements in Quantum Computing",
-      description: "An overview of the latest advancements in quantum computing and their potential applications.",
-      downloadLink: "/research/quantum-computing.pdf",
+      title: "Pressure-driven fusion of amorphous particles into integrated monoliths",
+      description: "Biological organisms can use amorphous precursors to produce inorganic skeletons with continuous structures through complete particle fusion. Synthesizing monoliths is much more difficult because sintering techniques can destroy continuity and limit mechanical strength. We manufactured inorganic monoliths of amorphous calcium carbonate by the fusion of particles while regulating structurally bound water and external pressure. Our monoliths are transparent, owing to their structural continuity, with a mechanical strength approaching that of single-crystal calcite. Dynamic water channels within the amorphous bulk are synergistically controlled by water content and applied pressure and promote mass transportation for particle fusion. Our strategy provides an alternative to traditional sintering methods that should be attractive for constructing monoliths of temperature-sensitive biominerals and biomaterials.",
+      downloadLink: "https://www.science.org/doi/10.1126/science.abg1915",
     },
     // Add more research items as needed
   ];
