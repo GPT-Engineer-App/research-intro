@@ -5,9 +5,9 @@ import { FaDownload } from "react-icons/fa";
 const Index = () => {
   const researchItems = [
     {
-      title: "Observation of the 4f1→5d1 electric quadrupole transition in Tm II",
-      description: "This research presents the observation of the 4f1→5d1 electric quadrupole transition in singly ionized thulium (Tm II) using high-resolution laser spectroscopy.",
-      downloadLink: "https://www.science.org/doi/full/10.1126/science.abg1915",
+      title: "Linear Calcium Carbonate Chains by Directional Control of Ionic Bonding",
+      description: "As a result of the non-directionality of ionic bonds, oppositely charged ions always assemble into closely packed clusters or crystals rather than linear structured ionic species. Here, we generated a series of linear calcium carbonate chains, (Ca2+CO32–)n, with an orientated directionality of the ionic interactions. The formation of these ionic chains with long-range ordered ionic interactions was originally induced by the dipole orientation of the ions and subsequently preserved by capping agents. According to the appropriately established folding–capping model, rational control of the capping effect can regulate the length of the (Ca2+CO32–)n chain within 100 nm, corresponding to n ≤ 250. Our discovery overturns the current understanding of ionic bonding in chemistry and opens a way to control the assembly of inorganic ions at molecular scale, pushing forward a fusion of molecular compounds and ionic compounds that share similar topological control.",
+      downloadLink: "https://pubs.acs.org/doi/abs/10.1021/acs.jpclett.4c00069",
     },
     {
       title: "Pressure-driven fusion of amorphous particles into integrated monoliths",
