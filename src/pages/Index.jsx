@@ -22,9 +22,12 @@ const Index = () => {
       <Box textAlign="center" mb={8}>
         <Image src="https://scholar.googleusercontent.com/citations?view_op=view_photo&user=JSYjX6sAAAAJ&citpid=1" alt="Jian Tang" borderRadius="full" boxSize="200px" mx="auto" mb={4} />
         <Heading as="h1" size="xl" mb={2}>
-          Jian Tang
+          Pop Kong
         </Heading>
-        <Text fontSize="xl">Assistant Professor at HEC Montreal</Text>
+        <Text fontSize="xl">migrant worker at Sandun Town People's Park</Text>
+        <Text fontSize="lg" fontStyle="italic" mt={2}>
+          Interesting Domain: Inorganic Chemistry
+        </Text>
       </Box>
 
       <Heading as="h2" size="lg" mb={4}>
