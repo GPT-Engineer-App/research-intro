@@ -5,9 +5,9 @@ import { FaDownload } from "react-icons/fa";
 const Index = () => {
   const researchItems = [
     {
-      title: "Novel Approach to Machine Learning",
-      description: "This research paper introduces a new approach to machine learning that improves accuracy and efficiency.",
-      downloadLink: "/research/ml-approach.pdf",
+      title: "Observation of the 4f1→5d1 electric quadrupole transition in Tm II",
+      description: "This research presents the observation of the 4f1→5d1 electric quadrupole transition in singly ionized thulium (Tm II) using high-resolution laser spectroscopy.",
+      downloadLink: "https://www.science.org/doi/full/10.1126/science.abg1915",
     },
     {
       title: "Advancements in Quantum Computing",
@@ -40,9 +40,9 @@ const Index = () => {
               {item.title}
             </Heading>
             <Text mb={4}>{item.description}</Text>
-            <Link href={item.downloadLink} download>
+            <Link href={item.downloadLink} isExternal>
               <Button rightIcon={<FaDownload />} colorScheme="blue">
-                Download
+                Details
               </Button>
             </Link>
           </Box>
