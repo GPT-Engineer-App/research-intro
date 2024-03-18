@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Heading, Text, Stack, Container, Link, Button, Image, UnorderedList, ListItem } from "@chakra-ui/react";
+import { Box, Heading, Text, Stack, Container, Link, Button, Image } from "@chakra-ui/react";
 import { FaDownload } from "react-icons/fa";
 
 const Index = () => {
@@ -48,27 +48,6 @@ const Index = () => {
           </Box>
         ))}
       </Stack>
-
-      <Heading as="h2" size="lg" mt={12} mb={4}>
-        Selected Publications
-      </Heading>
-      <UnorderedList>
-        <ListItem>
-          <Link href="https://www.sciencedirect.com/science/article/abs/pii/S0925838820311336" isExternal>
-            Synthesis, crystal structure and properties of a new layered titanium phosphate Na2Ti(PO4)2
-          </Link>
-        </ListItem>
-        <ListItem>
-          <Link href="https://www.sciencedirect.com/science/article/abs/pii/S0022459620305405" isExternal>
-            Synthesis, structure and ion-exchange property of a new open-framework zirconium phosphate (C4N2H12)0.5Zr(HPO4)2·H2O
-          </Link>
-        </ListItem>
-        <ListItem>
-          <Link href="https://pubs.acs.org/doi/abs/10.1021/acs.inorgchem.9b03642" isExternal>
-            Synthesis, Crystal Structure, and Luminescence Property of a New Europium(III) Sulfate–Phosphate with 0D [Eu(SO4)(PO4)] Isolated Units
-          </Link>
-        </ListItem>
-      </UnorderedList>
 
       <Box mt={12} textAlign="center">
         <Text fontSize="lg" mb={4}>
