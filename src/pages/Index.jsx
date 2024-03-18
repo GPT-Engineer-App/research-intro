@@ -49,6 +49,23 @@ const Index = () => {
         ))}
       </Stack>
 
+      <Heading as="h2" size="lg" mt={12} mb={4}>
+        Inorganic Chemistry Resources
+      </Heading>
+      <Stack spacing={8}>
+        {inorganicChemistryResources.map((resource, index) => (
+          <Box key={index} p={6} boxShadow="md" rounded="md">
+            <Heading as="h3" size="md" mb={2}>
+              {resource.title}
+            </Heading>
+            <Text mb={4}>{resource.description}</Text>
+            <Link href={resource.link} isExternal>
+              <Button colorScheme="teal">Visit Website</Button>
+            </Link>
+          </Box>
+        ))}
+      </Stack>
+
       <Box mt={12} textAlign="center">
         <Text fontSize="lg" mb={4}>
           For more information, please contact me at john.doe@example.com
@@ -65,5 +82,18 @@ const Index = () => {
     </Container>
   );
 };
+
+const inorganicChemistryResources = [
+  {
+    title: "Inorganic Chemistry Textbook",
+    description: "A comprehensive textbook covering the fundamentals of inorganic chemistry.",
+    link: "https://www.example.com/inorganic-chemistry-textbook",
+  },
+  {
+    title: "Inorganic Chemistry Software",
+    description: "A powerful software suite for modeling and analyzing inorganic compounds.",
+    link: "https://www.example.com/inorganic-chemistry-software",
+  },
+];
 
 export default Index;
