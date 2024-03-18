@@ -20,11 +20,11 @@ const Index = () => {
   return (
     <Container maxW="container.lg" py={8}>
       <Box textAlign="center" mb={8}>
-        <Image src="https://images.unsplash.com/photo-1644335364668-7b2ca4509c9c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxyZXNlYXJjaGVyJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzEwNzU4Mjk5fDA&ixlib=rb-4.0.3&q=80&w=1080" alt="Researcher" borderRadius="full" boxSize="200px" mx="auto" mb={4} />
+        <Image src="https://scholar.googleusercontent.com/citations?view_op=view_photo&user=JSYjX6sAAAAJ&citpid=1" alt="Jian Tang" borderRadius="full" boxSize="200px" mx="auto" mb={4} />
         <Heading as="h1" size="xl" mb={2}>
-          Dr. Pop K.
+          Jian Tang
         </Heading>
-        <Text fontSize="xl">Senior Researcher at XYZ Research Institute</Text>
+        <Text fontSize="xl">Assistant Professor at HEC Montreal</Text>
       </Box>
 
       <Heading as="h2" size="lg" mb={4}>
