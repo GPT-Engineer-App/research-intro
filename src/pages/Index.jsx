@@ -22,7 +22,7 @@ const Index = () => {
       <Box textAlign="center" mb={8}>
         <Image src="https://images.unsplash.com/photo-1644335364668-7b2ca4509c9c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxyZXNlYXJjaGVyJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzEwNzU4Mjk5fDA&ixlib=rb-4.0.3&q=80&w=1080" alt="Researcher" borderRadius="full" boxSize="200px" mx="auto" mb={4} />
         <Heading as="h1" size="xl" mb={2}>
-          Dr. John Doe
+          Dr. Pop K.
         </Heading>
         <Text fontSize="xl">Senior Researcher at XYZ Research Institute</Text>
       </Box>
